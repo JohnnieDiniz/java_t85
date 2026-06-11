@@ -12,7 +12,7 @@ public class Variaveis {
 		int numero1 = 10;
 		int numero2 = 5;
 		// float numero3, numero4;
-		
+		int numero5 = 12;
 		String nome;
 		char opcao = 'N';
 		
@@ -29,7 +29,11 @@ public class Variaveis {
 		//System.out.printf("%.2f * %.0f = %f", numero3, numero4, numero3 * numero4);
 		
 		System.out.printf("Digite o seu nome: ");
+		leia.skip("\\r?"); // ele ignora o /n
 		nome = leia.nextLine();
+		System.out.println("Olá" + nome + ", Sejá bem vindo(a)!");
+		
+		System.out.println("Esse é o núemro: " + numero5);
 
 	}
 
