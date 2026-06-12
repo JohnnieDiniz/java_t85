@@ -9,7 +9,9 @@ public class Ex03 {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.println("Digite o seu salário bruto: R$");
+		System.out.println("--- Cálculo do Salário Líquido  ---");
+		
+		System.out.println("\nDigite o seu salário bruto: R$");
 		float salariobruto = leia.nextFloat();
 		
 		System.out.println("Digite o seu adicional noturno: R$");
@@ -24,6 +26,8 @@ public class Ex03 {
 		float salarioliquido = salariobruto + adicionalnoturo + (horasextras * 5) - descontos;
 		
 		System.out.printf("Seu salário líquido é de: R$%.2f", salarioliquido);
+		
+		System.out.println("/n --- Fim do Programa ---");
 		
 		leia.close();
 

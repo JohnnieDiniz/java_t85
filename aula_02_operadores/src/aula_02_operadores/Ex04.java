@@ -9,7 +9,9 @@ public class Ex04 {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("--- Diferença do Produto ---");
+		
+		System.out.println("\nDigite o primeiro número: ");
 		float n1 = leia.nextFloat();
 		
 		System.out.println("Digite o segundo número: ");
@@ -24,6 +26,8 @@ public class Ex04 {
 		float resultado = (n1 * n2) - (n3 * n4);
 		
 		System.out.printf("O Resultado da diferença do produto é de: %.2f", resultado);
+		
+		System.out.println("/n --- Fim do Programa ---");
 		
 		leia.close();
 
