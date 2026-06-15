@@ -35,6 +35,7 @@ public class Variaveis {
 		
 		System.out.println("Esse é o núemro: " + numero5);
 		
+		leia.close();
 
 	}
 
