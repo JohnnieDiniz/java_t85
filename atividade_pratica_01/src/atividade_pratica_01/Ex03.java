@@ -1,3 +1,14 @@
+
+/**
+	 *  --- Calculádora Básica ---
+	 *  
+	 *  Aqui é uma calculádora básica, fazendo algumas operações básicas!
+	 *  
+	 * 
+	 *   --- Calculádora Básica ----
+	 *   **/
+
+
 package atividade_pratica_01;
 
 import java.util.Scanner;

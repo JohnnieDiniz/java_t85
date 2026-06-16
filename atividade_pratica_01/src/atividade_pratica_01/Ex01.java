@@ -4,7 +4,7 @@
 	 *  
 	 *  É um sistema onde o usuário irá digitar o nome e idade.
 	 *  
-	 *  Se o usu[ario for maior  ou igual a 18 anos, acesso liberado! 
+	 *  Se o usuário for maior  ou igual a 18 anos, acesso liberado! 
 	 *  
 	 *  Se o usuário for menor que 18 anos, acesso moderado referente a autorização de um responsável,
 	 *  caso não haja uma autorização, acesso negado. 

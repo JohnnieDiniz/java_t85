@@ -1,3 +1,12 @@
+/**
+	 *  --- Cálculo de Média Escolar ---- 
+	 *  
+	 *  É um sistema onde o usuário irá digitar o nome, idade, a turma/ série e as notas que tirou, nota 1 e nota 2
+	 *  e o sistema irá mostrar se ele foi aprovado, aprovado mas ficou de recuperação ou reprovado.
+	 *  
+	 * 
+	 *   --- Cálculo de Média Escolar ----
+	 *   **/
 package atividade_pratica_01;
 
 import java.util.Scanner;
@@ -12,7 +21,7 @@ public class Ex02 {
 		int idade, serie, nota1, nota2;
 		
 		System.out.println(" ----------------------------------------");
-		System.out.println(" ---     Cáculo da Média Escolar     ----");
+		System.out.println(" ---     Cálculo da Média Escolar     ----");
 		System.out.println(" ----------------------------------------");
 		
 		System.out.println("Digite o seu nome completo: ");
