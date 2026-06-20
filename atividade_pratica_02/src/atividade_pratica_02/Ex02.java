@@ -110,11 +110,6 @@ public class Ex02 {
 				}
 				break;
 				
-				/*
-				 * Neste case, utilizei apoio da IA para compreender a lógica de busca
-				 * e remoção de um aluno específico na coleção, mantendo minha adaptação
-				 * no código final.
-				 */
 			case 4:
 				double media = calcularMedia(notas);
 
