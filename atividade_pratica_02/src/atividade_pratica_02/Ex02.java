@@ -111,8 +111,7 @@ public class Ex02 {
 				break;
 				
 			case 4:
-				double media = calcularMedia(notas);
-
+				double media = calcularMedia(notas);				
 				System.out.printf("Média geral das notas: %.2f", media);
 				break;
 			case 0:
